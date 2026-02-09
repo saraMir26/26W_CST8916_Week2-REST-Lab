@@ -1,3 +1,5 @@
+# AI Disclosure: Claude Code was used in agent mode to assist with adding the TASK ENDPOINTS
+# implementing the tasks CRUD endpoints.
 # Import necessary modules from Flask
 # Flask: the core framework for the web app
 # jsonify: to convert Python dictionaries to JSON responses
