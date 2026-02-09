@@ -1,14 +1,14 @@
 ### 1. Get all tasks
-GET http://localhost:8000/tasks
+GET https://mirzaei-cst8916-api-haetc0drahcbegf5.canadacentral-01.azurewebsites.net/tasks
 
 ### 2. Get a single task
-GET http://localhost:8000/tasks/1
+GET https://mirzaei-cst8916-api-haetc0drahcbegf5.canadacentral-01.azurewebsites.net/tasks/1
 
 ### 3. Get a task that does not exist
-GET http://localhost:8000/tasks/999
+GET https://mirzaei-cst8916-api-haetc0drahcbegf5.canadacentral-01.azurewebsites.net/tasks/999
 
 ### 4. Create a new task (valid)
-POST http://localhost:8000/tasks
+POST https://mirzaei-cst8916-api-haetc0drahcbegf5.canadacentral-01.azurewebsites.net/tasks
 Content-Type: application/json
 
 {
@@ -18,7 +18,7 @@ Content-Type: application/json
 }
 
 ### 5. Create a task with missing title
-POST http://localhost:8000/tasks
+POST https://mirzaei-cst8916-api-haetc0drahcbegf5.canadacentral-01.azurewebsites.net/tasks
 Content-Type: application/json
 
 {
@@ -26,7 +26,7 @@ Content-Type: application/json
 }
 
 ### 6. Create a task with invalid user_id
-POST http://localhost:8000/tasks
+POST https://mirzaei-cst8916-api-haetc0drahcbegf5.canadacentral-01.azurewebsites.net/tasks
 Content-Type: application/json
 
 {
@@ -35,7 +35,7 @@ Content-Type: application/json
 }
 
 ### 7. Update a task
-PUT http://localhost:8000/tasks/1
+PUT https://mirzaei-cst8916-api-haetc0drahcbegf5.canadacentral-01.azurewebsites.net/tasks/1
 Content-Type: application/json
 
 {
@@ -43,7 +43,7 @@ Content-Type: application/json
 }
 
 ### 8. Delete a task
-DELETE http://localhost:8000/tasks/2
+DELETE https://mirzaei-cst8916-api-haetc0drahcbegf5.canadacentral-01.azurewebsites.net/tasks/2
 
 ### 9. Get tasks for a specific user
-GET http://localhost:8000/users/1/tasks
+GET https://mirzaei-cst8916-api-haetc0drahcbegf5.canadacentral-01.azurewebsites.net/users/1/tasks
